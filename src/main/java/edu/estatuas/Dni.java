@@ -1,7 +1,7 @@
 package edu.estatuas;
 
 
-public class Dni {
+class Dni {
 
     private byte lengthDni = 9;
     private final String cif;
@@ -28,7 +28,7 @@ public class Dni {
 
     Boolean isInputDniValid() {
         String dni = getDni();
-        return dni != null && !dni.trim().isEmpty();
+        return !dni.trim().isEmpty();
     }
 
     Boolean isLengthDniValid() {
