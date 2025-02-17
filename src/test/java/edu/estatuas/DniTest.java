@@ -14,16 +14,19 @@ public class DniTest {
         assertEquals(dni, new Dni(dni).getDni());
     }
 
+    @Test
     public void getLetter() {
         String dni = "78484464T";
         assertEquals("T", new Dni(dni).getLetter());
     }
 
+    @Test
     public void getNumber() {
         String dni = "39492958A";
         assertEquals("39492958", new Dni(dni).getNumber());
     }
 
+    @Test
     public void validDni() {
         String[] validDnis = {
                 "78484464T",
@@ -48,6 +51,7 @@ public class DniTest {
         }
     }
 
+    @Test
     public void invalidDni() {
         String[] invalidDnis = {
             "43770614Z",
