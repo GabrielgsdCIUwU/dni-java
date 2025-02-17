@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>edu.estatuas</groupId>
-  <artifactId>dni-java</artifactId>
+  <artifactId>dni</artifactId>
   <version>1.0.0</version>
 
-  <name>dni-java</name>
+  <name>dni</name>
   <url>https://github.com/GabrielgsdCIUwU/dni-java</url>
 
   <properties>
